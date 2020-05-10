@@ -1,32 +1,32 @@
 Follow the steps to execute the code:
 
-1. initialize python liabries (example- import pandas as pd)
-2. load the dataset (df=pd.read_csv('something.csv'))
-3. manipulate data to create confirmed, deaths, recoveries dataframe/array
-4. start a loop by iterating the dates and save the data of 8 country (Bangladesh, India, Sri Lanka,
+1. Initialize python liabries (example- import pandas as pd)
+2. Load the dataset (df=pd.read_csv('something.csv'))
+3. Manipulate data to create confirmed, deaths, recoveries dataframe/array
+4. Start a loop by iterating the dates and save the data of 8 country (Bangladesh, India, Sri Lanka,
 Bhutan, Maldives,Pakistan,Afghanistan,Nepal )
-5. summation of confirmed cases, deaths, recoveries of 8 countries will saved in SAARC variable,
+5. Summation of confirmed cases, deaths, recoveries of 8 countries will saved in SAARC variable,
 because this 8 country represents SAARC
-6. calculate and append the mortality rate and recovery rate
-7. got to 4 untill dataframe ends
-8. daily confirmed cases,death cases, recovery cases both in terms of SAARC as a whole and as
+6. Calculate and append the mortality rate and recovery rate
+7. Got to 4 until dataframe ends
+8. Daily confirmed cases,death cases, recovery cases both in terms of SAARC as a whole and as
    well as the individual countries of SAARC appended daily data
-9. reshaping the data
-10. setting the prediction parameter of days = 10 days in future
-11. future forecasting from the start date = 1/22/2020
-12. Split of the train and test data
-13. setting up (SVM, Polynomial Regression, Bayesian Ridge Regression) model
-14. check against testing data using a plot and printing out the mean_absolute_error 
+9. Reshaping the data
+10. Setting the prediction parameter of days = 10 days in future
+11. Future forecasting from the start date = 1/22/2020
+12. Split of the train and test data in order to get better results by using separate training and test data for the models.
+13. Setting up (SVM, Polynomial Regression, Bayesian Ridge Regression) model
+14. Check against testing data using a plot and printing out the mean_absolute_error 
     as well as mean_squared_error
 15. Plot Number of  Coronavirus DEATHS, RECOVERIES, ACTIVE CASES Over Time for SAARC
 16. Plot daily increasing Number of  Coronavirus DEATHS, RECOVERIES, ACTIVE CASES for SAARC.
 17. Plot Log of Number of Coronavirus Confirmed Cases, deaths, Recoveries Over Time
 18. Function of  plotting total confirmed cases,
     daily increasing (Confirmed cases, Death Cases, Recovery Cases)
-19. call the function pass the parameter of SAARC country to plot the data 
-20. plot confirmed cases, deaths, recoveries of SAARC countires altogether
-21. plot predictions and table of predictions of SAARC via SVM, Polynomial Regression,
+19. Call the function pass the parameter of SAARC country to plot the data 
+20. Plot confirmed cases, deaths, recoveries of SAARC countires altogether
+21. Plot predictions and table of predictions of SAARC via SVM, Polynomial Regression,
     Bayesian Ridge Regression
-22. plot Mortality rate, Recovery rate Of SAARC
-23. plot total death and total recovere in one graph
-24. plot Death vs Recoveries
+22. Plot Mortality rate, Recovery rate Of SAARC
+23. Plot total death and total recovere in one graph
+24. Plot Death vs Recoveries to better understand the relationship between these variables.
